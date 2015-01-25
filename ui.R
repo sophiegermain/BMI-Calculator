@@ -1,7 +1,7 @@
 shinyUI(pageWithSidebar(
-  headerPanel("Assess your Body Mass Index"),
+  headerPanel("Do you know how healthy you are?"),
   sidebarPanel(
-    "This app helps you calculate your Body Mass Index, a metric designed to tell you whether your weight is healthy relative to your height. You are also asked to guess how healthy you are upfront, which will be compared to your actual result.",
+    "This app helps you calculate your Body Mass Index, a metric designed to tell you whether your weight is healthy relative to your height. You are also asked to guess how healthy you are upfront, which will be compared to your actual result. Did you know how healthy you are before you got the result??",
     br(),
     br(),
     numericInput('weight', 'Enter your weight (in kg):', 100, min = 30, max = 200, step = 1),
